@@ -24,11 +24,11 @@ public class Task3_Triangle_Classifiers {
         int b = 20;
         int c = 10;
 
-        if (a==b && a==c){
+        if (a==b && a==c && c == b){
 
             System.out.println("all sides are equal");
         }
-        else if (a==b || a==c) {
+        else if (a==b || a==c || c == b) {
             System.out.println("exactly two sides are equal");
 
         }
